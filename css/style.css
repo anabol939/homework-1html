@@ -15,6 +15,16 @@ body {
 .adress {
   font-style: normal;
 }
+.logo-text{
+
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196f3;
+}
+}
 .logo link {
   font-family: var(--secondary-font);
 
@@ -24,6 +34,17 @@ body {
   letter-spacing: 0.03em;
 
   /*color: #2196f3;*/
+}
+.logo-text-header {
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+
+  letter-spacing: 0.03em;
+
+  color: #000000;
 }
 .navigation-link {
   font-size: 14px;
@@ -155,7 +176,7 @@ body {
   color: #000;
 }
 .logo-dark-teme {
-  color: FFFFFF;
+  color: #ffffff;
 }
 /*=========footer=======*/
 .adress-item {
