@@ -15,16 +15,15 @@ body {
 .adress {
   font-style: normal;
 }
-.logo-text{
+.logo-text {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
 
-    font-family: "Raleway", sans-serif;
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    color: #2196f3;
-}
-}
 .logo link {
   font-family: var(--secondary-font);
 
@@ -52,27 +51,35 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-align: left;
-  /*color: #212121;*/
+  color: #212121;
 }
 .navigation-link:hover,
 .navigation-link:focus {
-  background-color: var(--akcent-color);
+  color: var(--akcent-color);
 }
-.contact-mail link {
+.contact-mail {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 
-  /*color: #2196f3;*/
+  color: #757575;
+}
+.contact-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: #757575;
 }
 .contact-tel:hover,
 .contact-tel :focus {
-  background-color: var(--akcent-color);
+  color: var(--akcent-color);
 }
 .contact-mail:hover,
 .contact-mail:focus {
-  background-color: var(--akcent-color);
+  color: var(--akcent-color);
 }
 /*=========HERO========*/
 .herro-title {
